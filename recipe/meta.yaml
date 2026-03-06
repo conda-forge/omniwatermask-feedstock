@@ -1,5 +1,5 @@
 {% set name = "omniwatermask" %}
-{% set version = "0.4.2" %}
+{% set version = "0.4.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/omniwatermask-{{ version }}.tar.gz
-  sha256: 8e808f06e738f42de43b3d733f08f82e0364119d778be26ac71d8d79d3c749df
+  sha256: 0f2c58674c2e8c63b5d8adba8d0ff70e00d13c627bbeda1518daa9695dd4ef5e
 
 build:
   noarch: python
